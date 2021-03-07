@@ -1,0 +1,20 @@
+{
+  "name": "createreadme",
+  "version": "1.0.0",
+  "description": "auto generator using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b00kbaker/createReadme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  }
+}
+
+
