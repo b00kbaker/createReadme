@@ -75,7 +75,7 @@ const createHTML = (answers) =>
   
   ## Developer
     ${answers.name}
-    ${answers.github}
+    GitHub Username:${answers.github}
     ${answers.date}`;
 
 ;
