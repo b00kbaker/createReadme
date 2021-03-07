@@ -69,9 +69,6 @@ const createHTML = (answers) =>
   * Deployed Webpage: ${answers.webpage}
   * Image: ${answers.picture}
   
-
-  
-  ---
   
   ## Developer
     ${answers.name}
