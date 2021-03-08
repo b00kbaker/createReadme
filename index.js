@@ -73,7 +73,7 @@ const createHTML = (answers) =>
    ${answers.description}
 
   
-  ##Instructions
+  ## Instructions
    ${answers.instructions}
 
   ## View
