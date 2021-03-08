@@ -11,6 +11,11 @@ const questions = () => {
     },
     {
       type: "input",
+      name: "email",
+      message: "What is your email?",
+    },
+    {
+      type: "input",
       name: "date",
       message: "What is the date?",
     },
@@ -54,6 +59,13 @@ const questions = () => {
 
 const createHTML = (answers) =>
   `## ${answers.project}
+
+  ## Contents
+ 1. [Description](#Description)
+ 2. [Instructions](#Instructions)
+ 3. [View](#View)
+ 4. [Developer](#Developer)
+ 
   
   ## Description 
   
@@ -61,7 +73,7 @@ const createHTML = (answers) =>
    ${answers.description}
 
   
-  *Instructions for use:*
+  ##Instructions
    ${answers.instructions}
 
   ## View
@@ -71,12 +83,9 @@ const createHTML = (answers) =>
   
   
   ## Developer
-    ${answers.name}
+    Please reach out with any questions to ${answers.name} at ${answers.email}.
     GitHub Username:${answers.github}
     ${answers.date}`;
-
-;
-
 
 function init() {
   questions().then((answers) => {
