@@ -1,4 +1,4 @@
-## Employee Directory
+## MYSQL Employee Directory
 
   ## Contents
  1. [Description](#Description)
@@ -10,19 +10,19 @@
   ## Description 
   
   *The what, why, and how:* 
-   This directory runs as a React App using Components to render employee data from an external API (https://randomuser.me/api/). A search bar allows the user to type inquiries or can filter the people by ascending or descending order based on First Name, Last Name, Phone Number, Email, or DOB.
+   Using Node and MYSQL to run an Employee Databasewith a prompt interface running on the user's integrated terminal. Three models hold data pertaining to the employees, departments, and jobs. 
 
   
   ## Instructions
-   The app can be accessed online (https://b00kbaker.github.io/reactEmployeeDirectory/) and easily searched via text input or filtering via button.
+   Once the user has the code cloned use the information provided in the schema file to create the appropriate tables in MYSQLWorkbench and the json data can be populated via the "Import Data Wizard" command on MYSQL. When the data is loaded the command "node index.js" can be run in the integrated terminal and the prompts to view/update/add info will load.
 
   ## View
-  * GitHub Repo: https://github.com/b00kbaker/reactEmployeeDirectory.git
-  * Deployed Webpage: https://b00kbaker.github.io/reactEmployeeDirectory/
-  * Image: 
+  * GitHub Repo: https://github.com/b00kbaker/MYSQLempl_tracker.git
+  * Deployed Webpage: https://drive.google.com/file/d/15aw429lDvFpDXkMHkw_qIjM6KEC6bx6-/view?usp=sharing
+  * Image: https://drive.google.com/file/d/15aw429lDvFpDXkMHkw_qIjM6KEC6bx6-/view?usp=sharing
   
   
   ## Developer
-    Please reach out with any questions to Caitlin Murphy at caimmurphy@gmail.com.
+    Please reach out with any questions to Caitlin Murphy	 at caimmurphy@gmail.com.
     GitHub Username:b00kbaker
-    05/16/2021
+    06/08/2021
